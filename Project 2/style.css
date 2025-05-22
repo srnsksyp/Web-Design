@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0px 30px;
+}
+
+#nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav i {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+#centre {
+    width: 100%;
+    padding: 40px 50px;
+}
+
+#centre h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 85px;
+}
+
+#centre-in {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#centre-in p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+#right {
+    width: 20%;
+}
+.elem {
+    /* margin: 5px; */
+    padding: 18px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem i {
+    font-size: 25px;
+    opacity: 0;
+}
+
+.elem:hover {
+    cursor: pointer;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom {
+    height: 38.3%;
+    width: 100%;
+    background-color: red;
+    background-image: url(ovayo-ntlabati-f_WTk4JqwiM-unsplash.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+}
